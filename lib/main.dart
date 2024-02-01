@@ -166,7 +166,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
   @override
   Widget build(BuildContext context) {
     String Googleapikey =
-        "AIzaSyAVsku3_R5bbF-Vc9dt7fnZgu_iR1BYLUM";
+        "";
     String mapUrl =
         'https://maps.googleapis.com/maps/api/staticmap?center=$_lat,$_long=&zoom=18&size=900x900&maptype=roadmap&markers=color:red%7Clabel:A%7C$_lat,$_long&key=$Googleapikey';
 
